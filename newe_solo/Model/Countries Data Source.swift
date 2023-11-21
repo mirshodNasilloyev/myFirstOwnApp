@@ -1,0 +1,70 @@
+import Foundation
+
+struct CountriesDataSource {
+    
+    static func getCountries() -> [Country] {
+        
+        [
+            
+            Country(name: "Argentina", code: "ar", flag: "argentina"),
+            Country(name: "Australia", code: "au", flag: "australia"),
+            Country(name: "Austria", code: "at", flag: "austria"),
+            Country(name: "Belarus", code: "by", flag: "belarus"),
+            Country(name: "Belgium", code: "be", flag: "belgium"),
+            Country(name: "Brazil", code: "br", flag: "brazil"),
+            Country(name: "Canada", code: "ca", flag: "canada"),
+            Country(name: "Canary Islands", code: "ic", flag: "canary_islands"),
+            Country(name: "China", code: "cn", flag: "china"),
+            Country(name: "Colombia", code: "co", flag: "colombia"),
+            Country(name: "Croatia", code: "hr", flag: "croatia"),
+            Country(name: "Egypt", code: "eg", flag: "egypt"),
+            Country(name: "Estonia", code: "ee", flag: "estonia"),
+            Country(name: "France", code: "fr", flag: "france"),
+            Country(name: "Georgia", code: "ge", flag: "georgia"),
+            Country(name: "Germany", code: "de", flag: "germany"),
+            Country(name: "Great Britain", code: "gb", flag: "great_britain"),
+            Country(name: "Greece", code: "gr", flag: "greece"),
+            Country(name: "Iceland", code: "is", flag: "iceland"),
+            Country(name: "India", code: "in", flag: "india"),
+            Country(name: "Iran", code: "ir", flag: "iran"),
+            Country(name: "Iraq", code: "iq", flag: "iraq"),
+            Country(name: "Ireland", code: "ie", flag: "ireland"),
+            Country(name: "Israel", code: "il", flag: "israel"),
+            Country(name: "Italy", code: "it", flag: "italy"),
+            Country(name: "Japan", code: "jp", flag: "japan"),
+            Country(name: "Kazakstan", code: "kz", flag: "kazakhstan"),
+            Country(name: "Kyrgyzstan", code: "kg", flag: "kyrgyzstan"),
+            Country(name: "Latvia", code: "lv", flag: "latvia"),
+            Country(name: "Luxembourg", code: "lu", flag: "luxembourg"),
+            Country(name: "Malaysia", code: "my", flag: "malaysia"),
+            Country(name: "Mexico", code: "mx", flag: "mexico"),
+            Country(name: "Mongolia", code: "mn", flag: "mongolia"),
+            Country(name: "Morocco", code: "ma", flag: "morocco"),
+            Country(name: "Netherlands", code: "nl", flag: "netherlands"),
+            Country(name: "New Zealand", code: "nz", flag: "new_zealand"),
+            Country(name: "Nigeria", code: "ng", flag: "nigeria"),
+            Country(name: "Norway", code: "no", flag: "norway"),
+            Country(name: "Pakistan", code: "pk", flag: "pakistan"),
+            Country(name: "Palestine", code: "ps", flag: "palestine"),
+            Country(name: "Philippines", code: "ph", flag: "philippines"),
+            Country(name: "Portugal", code: "pt", flag: "portugal"),
+            Country(name: "Qatar", code: "qa", flag: "qatar"),
+            Country(name: "Russia", code: "ru", flag: "russia"),
+            Country(name: "Serbia", code: "rs", flag: "serbia"),
+            Country(name: "South Korea", code: "kr", flag: "south_korea"),
+            Country(name: "Spain", code: "es", flag: "spain"),
+            Country(name: "Sweden", code: "se", flag: "sweden"),
+            Country(name: "Switzerland", code: "ch", flag: "switzerland"),
+            Country(name: "Thailand", code: "th", flag: "thailand"),
+            Country(name: "Turkiye", code: "tr", flag: "turkey"),
+            Country(name: "United Kingdom", code: "gb", flag: "united_kingdom"),
+            Country(name: "Ukraine", code: "ua", flag: "ukraine"),
+            Country(name: "United States ", code: "us", flag: "usa"),
+            Country(name: "Uzbekistan", code: "uz", flag: "uzbekistan"),
+            Country(name: "Yemen", code: "ye", flag: "yemen"),
+            Country(name: "Zambia", code: "zm", flag: "zambia"),
+            Country(name: "Zimbabwe", code: "zw", flag: "zimbabwe")
+            
+        ]
+    }
+}
